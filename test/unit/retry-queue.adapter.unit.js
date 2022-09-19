@@ -4,15 +4,13 @@
 
 */
 
-import chai from 'chai'
-import sinon from 'sinon'
+// Global npm libraries
+const assert = require('chai').assert
+const sinon = require('sinon')
 
-// const BCHJS = require('@psf/bch-js')
-import RetryQueue from '../../lib/retry-queue.js'
+// Local libraries
+const RetryQueue = require('../../lib/retry-queue.js')
 
-const assert = chai.assert
-
-// const bchjs = new BCHJS()
 let uut
 let sandbox
 

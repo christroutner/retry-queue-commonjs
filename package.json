@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A Promise-based Queue with automatic retry",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node index.js",
     "test": "npm run lint && TEST=unit c8 mocha test/unit/",
@@ -21,8 +20,8 @@
   },
   "repository": "christroutner/retry-queue-commonjs",
   "dependencies": {
-    "p-queue": "7.3.0",
-    "p-retry": "5.1.1"
+    "p-queue": "4.0.0",
+    "p-retry": "4.6.2"
   },
   "devDependencies": {
     "apidoc": "0.53.0",

@@ -4,8 +4,6 @@
   from an external dependency.
 */
 
-'use strict'
-
 const mockBalance = {
   success: true,
   balance: {
@@ -27,4 +25,5 @@ const mockUtxos = {
   ]
 }
 
-export default { mockBalance, mockUtxos }
+// export default { mockBalance, mockUtxos }
+module.exports = { mockBalance, mockUtxos }

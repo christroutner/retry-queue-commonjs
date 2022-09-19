@@ -3,17 +3,7 @@
   Bitcoin Cash wallet.
 */
 
-/* eslint-disable no-async-promise-executor */
+const RetryQueue = require('./lib/retry-queue.js')
 
-import RetryQueue from './lib/retry-queue.js'
-
-// class BoilerplateLib {
-//   constructor () {
-//     _this = this
-//
-//     _this.bchjs = new BCHJS()
-//     _this.util = util
-//   }
-// }
-
-export default RetryQueue
+// export default RetryQueue
+module.exports = RetryQueue
