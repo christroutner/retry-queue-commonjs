@@ -3,8 +3,6 @@
   Bitcoin Cash wallet.
 */
 
-/* eslint-disable no-async-promise-executor */
-
 const RetryQueue = require('./lib/retry-queue.js')
 
 // export default RetryQueue
