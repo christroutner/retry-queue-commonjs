@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A Promise-based Queue with automatic retry",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node index.js",
     "test": "npm run lint && TEST=unit c8 mocha test/unit/",
