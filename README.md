@@ -1,4 +1,4 @@
-# retry-queue
+# retry-queue-commonjs
 
 This library is based on [p-queue](https://www.npmjs.com/package/p-queue) and [p-retry](https://www.npmjs.com/package/p-retry). It create a Queue for executing Promise-based functions. If the function fails, it will be automatically retried.
 

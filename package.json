@@ -1,5 +1,5 @@
 {
-  "name": "@chris.troutner/retry-queue",
+  "name": "@chris.troutner/retry-queue-commonjs",
   "version": "1.0.0",
   "description": "A Promise-based Queue with automatic retry",
   "main": "index.js",
@@ -13,26 +13,13 @@
     "coverage": "c8 report --reporter=text-lcov | coveralls",
     "coverage:report": "c8 --reporter=html mocha test/unit/ --exit"
   },
-  "keywords": [
-    "bitcoin",
-    "bitcoin cash",
-    "wallet",
-    "javascript",
-    "cryptocurrency",
-    "react",
-    "front end",
-    "client",
-    "apidoc",
-    "slp",
-    "tokens"
-  ],
   "author": "Chris Troutner <chris.troutner@gmail.com>",
   "license": "MIT",
   "apidoc": {
-    "title": "@chris.troutner/retry-queue",
+    "title": "@chris.troutner/retry-queue-commonjs",
     "url": "localhost:5000"
   },
-  "repository": "christroutner/retry-queue",
+  "repository": "christroutner/retry-queue-commonjs",
   "dependencies": {
     "@psf/bch-js": "6.4.5",
     "apidoc": "0.53.0",
