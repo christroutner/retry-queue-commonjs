@@ -7,7 +7,7 @@ Executing promise-based functions and then needed to do an automatic retry if it
 This repository is forked from [npm-lib-boilerplate-esm](https://github.com/christroutner/npm-lib-boilerplate-esm).
 
 ## Installation
-- `npm install --save-exact @chris.troutner/retry-queue`
+- `npm install --save-exact @chris.troutner/retry-queue-commonjs`
 
 ## Environment
 - node.js v16+
@@ -25,7 +25,7 @@ immediately and the Queue is allowed to work according concurrency setting.
 
 ```javascript
 // Include the library.
-import RetryQueue from '@chris.troutner/retry-queue'
+const RetryQueue = require('@chris.troutner/retry-queue-commonjs')
 
 // Retry-Queue settings:
 const options = {
