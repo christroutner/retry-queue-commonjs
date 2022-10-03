@@ -1,6 +1,6 @@
 {
   "name": "@chris.troutner/retry-queue-commonjs",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A Promise-based Queue with automatic retry",
   "main": "index.js",
   "scripts": {
